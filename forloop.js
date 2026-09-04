@@ -8,11 +8,17 @@ getBrowser(["chrome", "firefox", "edge"]);
 
 console.log("---------------------------------------------------");
 
-function getObject(people) {
+// const getObject = (people) => {
+//     for (let key in people) {
+//         console.log(`The ${key} is ${people[key]}`)
+//     }
+// };
+
+function getObject (people) {
     for (let key in people) {
         console.log(`The ${key} is ${people[key]}`);
     }
-}
+};
 
 const people = {
     name: "Prashanth",
